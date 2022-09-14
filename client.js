@@ -1,7 +1,7 @@
 // console.log("HHGHNRIRSIVIRNUI")
 // let name=prompt("Enter Your Name / Username to Join");
 // import { io } from "socket.io-client"
-const socket = io('process.env.PORT || http://localhost:8000');
+const socket = io('http://localhost:8000');
 
 const form = document.getElementById('send-form');
 const messageInp = document.getElementById('msgInp');
